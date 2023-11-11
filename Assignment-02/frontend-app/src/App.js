@@ -5,6 +5,7 @@ import axios from 'axios';
 function App() {
   const [products, setProducts] = useState([]);
 
+  
   useEffect(() => {
    
     axios.get('http://localhost:5000/api/products')
